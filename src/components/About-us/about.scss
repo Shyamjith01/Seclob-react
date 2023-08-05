@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&display=swap");
+.links {
+    display: flex;
+    justify-content: space-between;
+    span {
+        color: #b6b6b6;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .vl {
+        width: 2px;
+        height: auto;
+        background: #b6b6b6;
+    }
+}
+
+.paragraph {
+    margin-top: 3rem;
+    p {
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        color: #727272;
+    }
+
+    .logo_section{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+
+    }
+}
+
+.seclob_service {
+    margin-top: 3rem;
+    .sub_header {
+        color: #3f3f3f;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .row {
+        margin-top: 4rem; 
+    }
+}
+

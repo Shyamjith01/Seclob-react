@@ -1,0 +1,16 @@
+.footer {
+    min-height: 4rem;
+    background: #9c9b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        color: #fff;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

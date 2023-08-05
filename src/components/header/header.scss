@@ -1,0 +1,23 @@
+header{
+    height:5rem;
+    background:white !important;
+    color:black;
+    .header_logo{
+        img{
+            width:10rem !important;
+        }
+    }
+
+    .left-header-btns{
+        button{
+            margin: 0 10px;
+        }
+    }
+
+    .center{
+        color:#077DC7;
+        .active{
+            color:#3FB098;
+        }
+    }
+}

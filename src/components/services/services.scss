@@ -1,0 +1,35 @@
+.main_box{
+    border-radius: 75px;
+    background: linear-gradient(180deg, #0578BE 14.58%, #0D2D40 100%);
+    backdrop-filter: blur(5px);
+    width: 75rem;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    margin-top: 3rem;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    .items{
+        display: flex;
+        flex-direction: column;
+        width: 4rem;
+        margin: 34px;
+        height: 5rem;
+        cursor: pointer;
+        img{
+            width: 4rem;
+        }
+        span{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-top: 10px;
+        }
+    }
+}
